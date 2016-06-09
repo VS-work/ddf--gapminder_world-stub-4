@@ -26,4 +26,4 @@ energy_use_total,Energy use,measure,,https://docs.google.com/spreadsheet/pub?key
 latitude,Latitude,measure,,https://github.com/open-numbers/ddf--gapminder--dim_geo_countries_and_groups/blob/master/ddf--list--geo--country.csv,"[""linear""]",,degrees,,,
 longitude,Longitude,measure,,https://github.com/open-numbers/ddf--gapminder--dim_geo_countries_and_groups/blob/master/ddf--list--geo--country.csv,"[""linear""]",,degrees,,,
 sg_population,sg_population,measure,,http://www.gapminder.org/news/data-sources-dont-panic-end-poverty,"[""linear"",""log""]",,,,,
-new_concept,new concept,string,,,,,,,,
+new_concept,new concept,entity_domain,,,,,,,,
