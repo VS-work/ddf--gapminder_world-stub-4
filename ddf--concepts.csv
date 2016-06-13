@@ -1,8 +1,7 @@
 concept,name,concept_type,domain,indicator_url,scales,drill_up,unit,interpolation,description,description_long
 geo,Geographic location,entity_domain,,https://github.com/open-numbers/ddf--gapminder--dim_geo_countries_and_groups/blob/master/ddf--list--geo--country.csv,"[""ordinal""]",,,,,geo long
 age,Age,entity_domain,,,"[""linear"",""log""]",,years,,,
-time,Time,entity_domain,,,"[""time""]",,,,,
-year,Year,entity_set,time,,"[""time""]",,,,,
+time,Time,time,,,"[""time""]",,,,,
 translation,Translation,entity_domain,,,,,,,,
 country,Country,entity_set,geo,https://github.com/open-numbers/ddf--gapminder--dim_geo_countries_and_groups/blob/master/ddf--list--geo--country.csv,"[""ordinal""]","[""geographic_regions"",""income_groups"",""landlocked"",""geographic_regions_in_4_colors"",""main_religion_2008""]",,,,
 city_new,City,entity_set,geo,,"[""ordinal""]","[""country"",""main_religion_2008""]",,,,
